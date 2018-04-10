@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>portfolio</title>
+        
+        <link rel="stylesheet" href="assets/css/portfolio.css" media="screen,projection">
+       
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="assets/java/portolio.js"></script>
+
+    </head>
+    
+    <body>
+        
+        <div class="portfolio">
+            <div class="headBar">
+                
+                <div class="dropdown">
+
+                <a href="index.html"><button class="goTo"> H
+<!--                        <img src="assets/images/thumbnails/house.png"> -->
+                    </button></a>
+  
+<!--
+                <div class="row">
+                    <button class="goTo" class="mySlides" onclick="openModal()">AS</button>
+                </div>
+                
+                <div id="myModal" class="modal">
+                  <span class="close cursor" onclick="closeModal()">&times;</span>
+                    <div class="modal-content">
+                        <div class="mySlides" >
+                            <p><strong>Artist’s Statement</strong> </p>
+                            <p>Although I don’t quite have one unifying theme or method for my artwork, the process is often the same with my mixed media pieces. The sketchbook, tire vest and cover are all examples of work where I’ll have an idea of what I want the end-product to look like, and I’ll just try out different ways and mediums to get to that image in my mind. I’m fond of using some blend of calculations and . I’m inspired by a vast number of traditional and modern artists, from Chicago-favorite Hebru Brantley to France’s Gustave Guillaumet. In my photography, people portraits that show show some sort of uniqueness or some raw relationship are the best pieces. </p>
+                            <p><strong>DISCLAIMER: </strong>I really have no idea how to write an artist's statement. This is just some weird bs I wrote in a hot second. Read this instead:</p>
+                            <p><strong>SHORT ARTIST STATEMENT: SAM DURANT</strong></p>
+                            <p>My artwork takes a critical view of social, political and cultural issues.  Often referencing American history, my work explores the varying relationships between popular culture and fine art. Having engaged subjects as diverse as the civil rights movement, southern rock music and modernist architecture, my work reproduces familiar visual and aural signs, arranging them into new conceptually layered installations. While I use a variety of materials and processes in each project my methodology is consistent. Although there may not always be material similarities between the different projects they are linked by recurring formal concerns and through the subject matter.   The subject matter of each body of work determines the materials and the forms of the work.  Each project often consists of multiple works, often in a range of different media, grouped around specific themes and meanings.  During research and production new areas of interest arise and lead to the next body of work.</p>
+                        </div>
+                    </div>
+                </div>
+-->
+            
+                <script>
+        function openModal() {
+          document.getElementById('myModal').style.display = "block";
+        }
+
+        function closeModal() {
+          document.getElementById('myModal').style.display = "none";
+        }
+        
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots =  document.getElementById("caption");
+          if (n > slides.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+          }
+        }
+        
+        var modal = document.getElementById('myModal')
+        
+    </script>
+                
+                <a href="resume.html"><button class="goTo"> R </button></a>
+                  
+            <div class="OtherGoTo">
+                <div class="dropdown">
+        <button onclick="dropDownFxn()" class="dropbtn">Contact</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="https://www.linkedin.com/in/rachel-schonbaum-752608143" target="_blank"><img src="assets/images/thumbnails/linkedin-logo-copy.png">LinkedIn </a>
+
+                <a href="mailto:rachelschonbaum@gmail.com"><img src="assets/images/thumbnails/gmailLogo.png" width="-2" height="31">Email</a>
+
+                <a href="#">other</a>
+
+                <script>
+                    /* When the user clicks on the button, 
+                    toggle between hiding and showing the dropdown content */
+                    function dropDownFxn() {
+                        document.getElementById("myDropdown").classList.toggle("show");
+                    }
+
+                    // Close the dropdown if the user clicks outside of it
+                    window.onclick = function(event) {
+                      if (!event.target.matches('.dropbtn')) {
+
+                        var dropdowns = document.getElementsByClassName("dropdown-content");
+                        var i;
+                        for (i = 0; i < dropdowns.length; i++) {
+                          var openDropdown = dropdowns[i];
+                          if (openDropdown.classList.contains('show')) {
+                            openDropdown.classList.remove('show');
+                          }
+                        }
+                      }
+                    }
+                </script>
+            </div>
+        </div>
+            </div>
+                </div>  
+            </div>
+        </div>
+       
+        <div>
+<!--                2016/17 PORTFOLIO-->            
+            <div class="photography">
+                <h4></h4>  
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#myCarousel" data-slide-to="1"></li>
+                      <li data-target="#myCarousel" data-slide-to="2"></li>
+                      <li data-target="#myCarousel" data-slide-to="3"></li>
+                      <li data-target="#myCarousel" data-slide-to="4"></li>
+                      <li data-target="#myCarousel" data-slide-to="5"></li>
+                      <li data-target="#myCarousel" data-slide-to="6"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                      <div class="item active">
+                        <img src="assets/images/Portfolio/bwDab.jpg" alt="dab" style="width:100%;">
+                      </div>
+                      
+                       <div class="item">
+                        <img src="assets/images/Portfolio/kiss.jpg" alt="dab" style="width:100%;">
+               			</div>
+                        
+                      <div class="item">
+                        <img src="assets/images/Portfolio/boat.jpg" alt="boat" style="width:100%;">
+                      </div>
+
+                      <div class="item">
+                        <img src="assets/images/Portfolio/DSC_0017.jpg" style="width:100%;">
+                      </div>
+
+                      <div class="item">
+                        <img src="assets/images/Portfolio/DSC_0093.jpg" alt="pride parade" style="width:100%;">
+                      </div>
+
+                        <div class="item">
+                        <img src="assets/images/Portfolio/DSC_0164.jpg" alt="cubs" style="width:100%;">
+                      </div>
+
+                        <div class="item">
+                        <img src="assets/images/Portfolio/DSC_0172.jpg" alt="bubble" style="width:100%;">
+                      </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                      <span class="glyphicon glyphicon-chevron-left"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                      <span class="glyphicon glyphicon-chevron-right"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+            </div>
+
+            <div class="gridPhotos">
+               
+                <h2>2016/17</h2>
+                <div class="grid">
+                    <img id="myImg" src="assets/images/Portfolio/innerTubeDress.jpg">
+                    <img id="myImg" src="assets/images/Portfolio/RachelSketchbookS.jpg">
+
+                </div>
+
+                <div class="grid">
+                    <img id="myImg" src="assets/images/Portfolio/DSC_0782.jpg">
+                    <img id="myImg" src="assets/images/Portfolio/RachelHubCap.jpg">
+                </div>
+
+                <div class="grid">
+                    <img id="myImg" src="assets/images/Portfolio/DSC_0237.jpg">
+                    <img id="myImg" src="assets/images/Portfolio/DSC_5617.jpg">
+                </div>
+
+                <div class="gridResize">
+                    <img id="myImg" src="assets/images/Portfolio/DSC_0193.jpg">
+                </div>
+
+                <div class="grid">
+                    <img id="myImg" src="assets/images/Portfolio/DSC_0662.jpg">
+                    <img id="myImg" src="assets/images/Portfolio/RachelFaceless.jpg">
+                </div>
+                
+                <div class="grid">
+                    <img id="myImg" src="assets/images/Portfolio/Alex%20Stencil.jpg">
+                    <img id="myImg" src="assets/images/Portfolio/DSC_0761.jpg" height="50%">
+                </div>
+
+                <div class="gridResize">
+                    <img id="myImg" src="assets/images/Portfolio/DSC_0412.jpg">
+                </div>
+                
+<!--                2017/18 PORTFOLIO-->
+                <h2>2017/18</h2>
+                    <div class="gridResize">
+                        <img id="myImg" src="assets/images/port/bw%20face.jpg" height="50%">
+                        <img id="myImg" src="assets/images/port/face.jpg" height="50%">
+                    </div>
+
+                    <div class="gridResize">
+                        <img id="myImg" src="assets/images/port/kafka_cover_japanese.jpg" height="25%">
+                    </div>
+
+                    <div class="gridResize">
+                        <img id="myImg" src="assets/images/port/pink.jpg" height="25%" >
+                    </div>
+                
+<!--                VERSAILLES PHOTOS-->
+                <h2>Versailles</h2>
+                    <div class="gridResize">
+                        <img id="myImg" src="assets/images/Versailles/fountain.jpg" height="50%">
+                        <img id="myImg" src="assets/images/Versailles/venus.jpg" height="50%">
+                    </div>
+
+<!--                OTHER PROJECTS-->
+                <div class="blackBack">
+                    <h2>Other Projects</h2>
+                    
+                    <div class="gridResize" id="gridResize">
+                        <img id="myImage" src="assets/images/other/purp.jpg" height="50%" onclick="myFunction()">
+                        
+                    <a href="javascript:changeImage()"><img src="assets/images/other/super.jpg"></a>
+                    <script>
+                        var newsrc = "purp.jpg";
+
+                        function changeImage() {
+                          if ( newsrc == "mars.jpg" ) {
+                            document.images["pic"].src = "assets/images/other/purp.jpg";
+                            document.images["pic"].alt = "purple";
+                            newsrc  = "super.jpg";
+                          }
+                          else {
+                            document.images["pic"].src = "assets/images/other/super.jpg";
+                            document.images["pic"].alt = "super";
+                            newsrc  = "purp.jpg";
+                          }
+                        }    
+                    </script>   
+                        
+                    </div>   
+                    
+                    
+<!--
+                    <div class="gridResize">
+                        <img id="myImg" src="assets/images/other/super.jpg" height="50%">
+                    </div> 
+-->
+                </div>
+            </div> 
+        
+        </div>
+    
+    </body>
+    <footer></footer>
+</html>

@@ -1,0 +1,244 @@
+video, h3 {
+    margin-left: 10%;
+}
+
+h3 {
+    font-family: sans-serif;
+}
+
+.body {
+	margin: 10px;
+	padding-top:10px;
+	color:#b4eeb4;
+    margin-left: 10px;
+}
+
+.padding {
+    display: inline;
+    
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 80%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    
+    margin-left: 10%;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc; 
+}
+
+.panel {
+    display: none;
+    background-color: white;
+	width: 78%;
+    
+    margin-left: 15%;
+}
+
+.photo {
+	width: 100px;
+	height:auto;
+	
+	margin: 10px;
+	display:inline-block;
+    float: left;
+}
+
+.text {
+    width: auto;
+    margin-left: 5px;
+}
+
+.parts {
+    display: inline-block;
+}
+
+.topnav {
+     overflow: hidden;
+   	 background-color:#bdc3c7;
+	 width: 99%;
+	 
+	 margin-bottom: 10px;
+}
+
+.topnav a {
+/*         this is why the pdf wont go to the center      */
+            float: left;
+            
+              display: block;
+              color: black;
+              text-align: center;
+              padding: 8px 10px;
+              text-decoration: none;
+              font-size: 17px;
+			  
+            }
+            
+.topnav img {
+    width: auto;
+    height: 25px;
+}
+			
+.tabs {
+    padding: 5px;	
+}
+
+button {
+    border: none;
+    background-color: azure;
+}
+
+.backButton img {
+    height: 30px;
+    width: auto;
+}
+
+.row1 {
+    width: 300px;
+    height: auto;
+	padding-bottom:10px;
+    display: block;
+	
+	margin-top: 20px;
+
+}
+	
+.row1 div{
+    margin-bottom:10px;
+	background-color:#4f7671;
+	
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-align: center;
+    display: inline-block;
+}
+
+.invisDiv2{
+   display: block;
+    margin-top: 10px;
+    padding-bottom: 5px;
+	width: 100%;
+}
+.invisDiv2 img {
+    width: 100px;
+    height: 100px;
+}
+
+.row1 img {
+    width: 100px;
+    height: 100px;
+}
+
+footer {
+	margin-top: 30px;
+}
+
+
+.blockText {
+	display: inline;
+}
+
+.photo img {
+	width: 100px;
+	height: auto;
+}
+
+#portfolioText {
+    font-family: "helvetica", sans-serif;
+}
+
+.column {
+    width: 45%;
+    display: inline-block;
+    
+    margin-right: 20px;
+    
+}
+
+.portfolio{
+    width: 49%;
+    height: 150px;
+    display: inline-block;
+    background-color:blanchedalmond;
+    
+    margin-top: 5px;
+}
+
+.portfolio p{
+    text-align: center;
+    
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+/*
+    margin-top: 70px;
+    
+    border: none;
+*/
+}
+
+#art {
+    background-color: cadetblue;
+    margin-right: 20px;
+}
+
+.titleResume{
+    margin-left: 40%;
+    margin-bottom: 15px;
+    
+}
+
+.title div{
+    display: inline-block;
+}
+
+.H3{
+    min-width: 500px;
+    margin-left: 6%;
+}
+
+.headBar div{
+    display: inline-block;
+}
+
+.headBar{
+    float: right;
+    margin-right: 10%;
+    margin-bottom: 10px;
+}
+
+.headBar img {
+    height: 30px;
+    width: auto;
+}
+
+.goTo{
+    width: 35px;
+    height: 35px;
+    
+    background-color: blanchedalmond;
+    padding-left: 10px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+button {
+    border: none;
+}
