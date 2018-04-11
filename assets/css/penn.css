@@ -187,11 +187,6 @@ footer {
     margin: 4px 2px;
     cursor: pointer;
     
-/*
-    margin-top: 70px;
-    
-    border: none;
-*/
 }
 
 #art {
@@ -247,7 +242,7 @@ button {
     margin-left: 10%;
 }
 
-img {
+.vid {
     width: 80%;
     height: auto;
 }
