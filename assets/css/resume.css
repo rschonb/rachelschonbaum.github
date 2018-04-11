@@ -291,7 +291,7 @@ footer {
 }
 
 .goTo{
-    width: 35px;
+    min-width: 35px;
     height: 35px;
     
     background-color: blanchedalmond;
