@@ -271,6 +271,8 @@ footer {
 .H3{
     min-width: 550px;
     margin-left: 6%;
+    
+    font-family: sans-serif;
 }
 
 .headBar div{
