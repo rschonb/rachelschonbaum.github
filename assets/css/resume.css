@@ -264,3 +264,7 @@ footer {
     margin-bottom: 15px;
     
 }
+
+.title div{
+    display: inline-block;
+}
