@@ -268,3 +268,37 @@ footer {
 .title div{
     display: inline-block;
 }
+
+.H3{
+    min-width: 550px;
+    margin-left: 6%;
+}
+
+.headBar div{
+    display: inline-block;
+}
+
+.headBar{
+    float: right;
+    margin-right: 10%;
+    margin-bottom: 10px;
+}
+
+.headBar img {
+    height: 30px;
+    width: auto;
+}
+
+.goTo{
+    width: 35px;
+    height: 35px;
+    
+    background-color: blanchedalmond;
+    padding-left: 10px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+button {
+    border: none;
+}
