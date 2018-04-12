@@ -85,8 +85,10 @@ table {
 .panel {
     display: none;
     background-color: white;
-	width: 99%;
+	width: 70%;
 }
+
+
 
 .photo {
 	width: 100px;

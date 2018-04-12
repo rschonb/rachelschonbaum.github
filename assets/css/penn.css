@@ -248,7 +248,6 @@ button {
     margin-right: 10%;
     text-indent: 50px;
     
-    
     margin-bottom: 20px;
 }
 
@@ -258,5 +257,9 @@ button {
 
 .second{
     color: aquamarine;
+}
+
+p {
+    
 }
 
