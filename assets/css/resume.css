@@ -310,11 +310,11 @@ button {
 
 #portfolio{
     margin-left: 20%;
-    background-color: azure;
+    background-color:indianred;
     
 }
 
-#portfolio img{
+.panel img{
     width: 50%;
     height: auto;
     display: inline-block;
