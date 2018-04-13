@@ -116,6 +116,7 @@ table {
 
 .parts {
     display: inline-block;
+    float: right;
 }
 
 .topnav {
