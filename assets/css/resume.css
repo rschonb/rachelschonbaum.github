@@ -318,3 +318,11 @@ button {
     color: white;
 }
 
+#portfolioIMG img{
+    width: 50%;
+    height: auto;
+    
+    margin-left: 20%;
+    
+}
+
