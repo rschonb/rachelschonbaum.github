@@ -116,7 +116,8 @@ table {
 
 .parts {
     display: inline-block;
-    float: right;
+/*    float: right;*/
+    margin-left: 10%;
 }
 
 .topnav {
