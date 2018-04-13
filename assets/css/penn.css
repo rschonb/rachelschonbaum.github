@@ -245,9 +245,6 @@ button {
 
 .writing{
     margin-left: 10%;
-    margin-right: 10%;
-    text-indent: 50px;
-    
     margin-bottom: 20px;
 }
 
@@ -258,8 +255,3 @@ button {
 .second{
     color: aquamarine;
 }
-
-p {
-    
-}
-
