@@ -85,7 +85,7 @@ table {
 .panel {
     display: none;
     background-color: white;
-	width: 70%;
+	width: 99%;
 }
 
 
@@ -121,7 +121,7 @@ table {
 .topnav {
      overflow: hidden;
    	 background-color:#bdc3c7;
-	 width: 99%;
+	 width: 70%;
 	 
 	 margin-bottom: 10px;
 }
