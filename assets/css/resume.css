@@ -303,3 +303,7 @@ footer {
 button {
     border: none;
 }
+
+#colored{
+    background-color: darkseagreen;
+}
