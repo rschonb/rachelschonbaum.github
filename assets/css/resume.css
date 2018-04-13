@@ -77,7 +77,7 @@ table {
     font-size: 15px;
     transition: 0.4s;
     
-    margin-left: 15%;
+    margin-left: 10%;
 }
 
 .active, .accordion:hover {
