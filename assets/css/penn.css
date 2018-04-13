@@ -246,7 +246,7 @@ button {
 .writing{
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .first{
@@ -254,5 +254,18 @@ button {
 }
 
 .second{
-    color: aquamarine;
+    color: #42aaf4;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    font-weight:bold;
+    color: coral;
+}
+
+.third{
+    color: darkgreen;
 }

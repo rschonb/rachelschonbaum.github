@@ -310,13 +310,10 @@ button {
 
 #portfolio{
     margin-left: 20%;
-    background-color:indianred;
-    
+    background-color:indianred;   
 }
 
-.panel img{
-    width: 50%;
-    height: auto;
-    display: inline-block;
-    
+#portfolio:hover{
+    background-color: brown;
 }
+
