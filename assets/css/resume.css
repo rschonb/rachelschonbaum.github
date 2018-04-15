@@ -318,12 +318,15 @@ button {
     color: white;
 }
 
-#portfolioIMG img{
+#portfolioIMG embed{
     width: 50%;
     height: auto;
-    display: inline;
     
     margin: 0 auto;
     
 }
 
+#portfolioIMG div{
+    display: inline-block;
+    margin-right: 10px;
+}
