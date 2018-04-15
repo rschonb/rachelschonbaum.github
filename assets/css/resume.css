@@ -321,9 +321,9 @@ button {
 #portfolioIMG img{
     width: 50%;
     height: auto;
-    display: inline-block;
+    display: inline;
     
-    margin-left: 13%;
+    margin: auto 0;
     
 }
 
