@@ -285,9 +285,9 @@ a:hover{
 }
 
 .box{
-    height: 10%;
-    width: 10%;
-    background-color: antiquewhite;
+    height: 200px;
+    width: 200px;
+    background-color: red;
     display: inline-block;
     
     margin-right: 10%;
