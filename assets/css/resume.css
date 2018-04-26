@@ -84,10 +84,14 @@ table {
     background-color: #ccc; 
 }
 
+
 .panel {
     display: none;
-    background-color: white;
 	width: 80%;
+}
+
+#excerpt{
+    margin-left: 50%;
 }
 
 .photo {
@@ -318,15 +322,16 @@ button {
     color: white;
 }
 
-#portfolioIMG{
+#portfolioIMG img{
     width: 50%;
     height: auto;
     
     margin: 0 auto;
-    
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
-#portfolioIMG div{
+#portfolioIMG{
     display: inline-block;
-    margin-right: 10px;
+    margin-left: 40%;
 }
