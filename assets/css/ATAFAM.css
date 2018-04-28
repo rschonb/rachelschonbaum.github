@@ -238,6 +238,9 @@ footer {
     margin-top: 20px;
     margin-left: 15px;
 }
+.interview{
+    color: darkgreen;
+}
 
 button {
     border: none;
