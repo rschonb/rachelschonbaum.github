@@ -243,6 +243,7 @@ footer {
 }
 .interview img{
     margin-left: 10%;
+    padding: 10px;
 }
 button {
     border: none;
