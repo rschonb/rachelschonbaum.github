@@ -241,7 +241,10 @@ footer {
 .interview{
     color: darkgreen;
 }
-
+.interview img{
+    margin-left: 10%;
+}
 button {
     border: none;
 }
+
