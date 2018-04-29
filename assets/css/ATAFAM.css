@@ -31,7 +31,6 @@ h3 {
     transition: 0.4s;
     
     margin-left: 10%;
-    margin-bottom: 30px;
 }
 
 .active, .accordion:hover {
@@ -248,5 +247,9 @@ footer {
 }
 button {
     border: none;
+}
+
+body{
+    margin-bottom: 30px;
 }
 
