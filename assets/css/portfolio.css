@@ -22,7 +22,9 @@
 }
 
 #title {
-    color: grey;
+  color: grey;
+  padding-bottom: 20px;
+  margin-left: 70%;
 }
 
 .container:hover .middle {
